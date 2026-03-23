@@ -117,7 +117,14 @@ Claude Code is a product built and maintained by [Anthropic](https://www.anthrop
 
 SuperClaude currently uses slash commands.
 
-**Option 1: pipx (Recommended)**
+**One-line Install (Recommended)**
+```bash
+curl -fsSL https://raw.githubusercontent.com/SuperClaude-Org/SuperClaude_Framework/master/scripts/remote-install.sh | bash
+```
+
+Or non-interactive: `curl -fsSL https://raw.githubusercontent.com/SuperClaude-Org/SuperClaude_Framework/master/scripts/remote-install.sh | bash -s -- --yes`
+
+**Option 1: pipx**
 ```bash
 # Install from PyPI
 pipx install superclaude

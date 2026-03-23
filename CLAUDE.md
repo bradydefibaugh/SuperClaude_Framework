@@ -245,11 +245,14 @@ superclaude mcp  # Interactive install, gateway is default (requires Docker)
 
 **Standard Installation**:
 ```bash
-# Option 1: pipx (recommended)
+# One-line install (recommended)
+curl -fsSL https://raw.githubusercontent.com/SuperClaude-Org/SuperClaude_Framework/master/scripts/remote-install.sh | bash
+
+# Or via pipx
 pipx install superclaude
 superclaude install
 
-# Option 2: Direct from repo
+# Or direct from repo
 git clone https://github.com/SuperClaude-Org/SuperClaude_Framework.git
 cd SuperClaude_Framework
 ./install.sh

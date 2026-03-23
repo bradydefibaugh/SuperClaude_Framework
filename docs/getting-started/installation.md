@@ -26,14 +26,21 @@
 
 <div align="center">
 
+### **One-Line Install**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/SuperClaude-Org/SuperClaude_Framework/master/scripts/remote-install.sh | bash
+```
+
 ### **Choose Your Preferred Method**
 
 | Method | Command | Platform | Best For |
 |:------:|---------|:--------:|----------|
-| **🐍 pipx** | `pipx install SuperClaude && SuperClaude install` | Linux/macOS | **✅ Recommended** - Isolated environment |
+| **🚀 curl** | `curl -fsSL .../remote-install.sh \| bash` | Linux/macOS | **✅ Recommended** - One command |
+| **🐍 pipx** | `pipx install SuperClaude && SuperClaude install` | Linux/macOS | Isolated environment |
 | **📦 pip** | `pip install SuperClaude && SuperClaude install` | All | Traditional Python setups |
 | **🌐 npm** | `npm install -g @bifrost_inc/superclaude && superclaude install` | All | Node.js developers |
-| **🔧 Dev** | `git clone ... && uv pip install -e ".[dev]"` | All | Contributors & developers |
+| **🔧 Dev** | `curl ... \| bash -s -- --dev` | All | Contributors & developers |
 
 </div>
 
